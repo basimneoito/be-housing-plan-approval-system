@@ -19,9 +19,9 @@ jobs:
       with:
        host: 204.236.138.9
        username: ubuntu
-       keys: ${{ secrets.PLANNING_BE}}
+       key: ${{ secrets.PLANNING_BE}}
        port: 22
-       scripts: |
+       script: |
          cd be
          git pull origin master
          git status
