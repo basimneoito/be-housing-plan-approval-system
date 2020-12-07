@@ -22,7 +22,7 @@ jobs:
        key: ${{ secrets.PLANNING_BE}}
        port: 22
        script: |
-         cd be
+         cd be/be-housing-plan-approval-system
          git pull origin master
          git status
 
